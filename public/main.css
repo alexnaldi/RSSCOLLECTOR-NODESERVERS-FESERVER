@@ -1,1 +1,18 @@
-/*TO DO Stylesheet*/
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    color:#666;
+    background-color:white;
+    min-width:1024px;
+    min-height:100%;
+    padding:0px;
+    margin:0px;
+}
+
+#content-container-id{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    min-height: calc(100% - 80px);
+    min-width: calc(100% - 250px);
+}

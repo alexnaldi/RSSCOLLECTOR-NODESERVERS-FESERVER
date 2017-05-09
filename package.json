@@ -4,12 +4,12 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "ng build",	
+    "build": "ng build",
     "start": "node .",
     "start:prod": "cross-env NODE_ENV=production TYPE_ENV=frontend PORT=3015 npm start",
     "start:dev": "cross-env NODE_ENV=development TYPE_ENV=frontend PORT=3015 npm start",
     "eslint": "eslint .",
-    "tslint": "tslint ./public/**/*.ts -t verbose" 	
+    "tslint": "tslint ./public/**/*.ts -t verbose"
   },
   "author": "Alessandro Naldi",
   "license": "Apache License 2.0",
@@ -34,27 +34,27 @@
     "@types/node": "^6.0.45",
     "tslint": "^3.15.1",
     "typescript": "~2.2.0",
-     "@angular/compiler-cli": "^2.3.1",
-     "angular-cli": "1.0.0-beta.28.3"
-
+    "@angular/cli":"^1.0.0",
+    "@angular/compiler-cli": "^4.0.0"
   },
   "dependencies": {
+    "@angular/animations": "^4.0.0",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/platform-server": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "@angular/tsc-wrapped": "^4.0.0",
+    "@angular/upgrade": "^4.0.0",
     "abstract-server": "file:../abstract-server",
-    "@angular/common": "~4.0.0",
-    "@angular/compiler": "~4.0.0",
-    "@angular/compiler-cli": "~4.0.0",
-    "@angular/core": "~4.0.0",
-    "@angular/forms": "~4.0.0",
-    "@angular/http": "~4.0.0",
-    "@angular/platform-browser": "~4.0.0",
-    "@angular/platform-browser-dynamic": "~4.0.0",
-    "@angular/platform-server": "~4.0.0",
-    "@angular/router": "~4.0.0",
-    "@angular/tsc-wrapped": "~4.0.0",
-    "@angular/upgrade": "~4.0.0",
     "core-js": "^2.4.1",
+    "font-awesome": "^4.7.0",
     "rxjs": "5.0.1",
     "systemjs": "0.19.39",
-    "zone.js": "^0.8.4"	
+    "zone.js": "^0.8.4"
   }
 }
