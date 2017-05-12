@@ -10,9 +10,11 @@
 
 #topbar-container-id .menu-wrapper{
     float: right;
-    width: 150px;
+    min-width: 160px;
     height:80px;
     text-align: center;
+    background-color: #005DC4;
+    cursor: pointer;
 }
 
 #topbar-container-id .logo-wrapper{
@@ -24,11 +26,15 @@
 
 #topbar-container-id .inner-menu-wrapper{
     display:none;
+    position:relative;
+    z-index:10;
+    border-top: 3px solid red;
+    background-color: #005DC4;
 }
 
 #topbar-container-id .menu-wrapper span{
     line-height:80px;
-    color:white;
+    color: #bebebe;
     font-size: 16px;
 }
 
@@ -40,9 +46,23 @@
 
 #topbar-container-id .nav-links-list .nav-links{
 	text-align:left;
-	padding:10px;	
+	padding:10px;
+    line-height:40px;
+    height:40px;
+}
+
+#topbar-container-id .nav-links-list .nav-links:hover{
+    background-color: #528BDB;
+    border-left: 3px solid #bebebe;
 }
 
 #topbar-container-id .nav-links a{
     text-decoration:none;
+    color:#bebebe;
+    font-size: 16px;
+    line-height:40px;
+    padding-left:10px;
+    display:inline-block;
+    width:calc(100% - 10px);
+    height:100%;
 }
